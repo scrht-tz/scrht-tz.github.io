@@ -1,0 +1,32 @@
+{
+    "terceirobimestre": [{
+        "data": "02/09/2022",
+        "materia": "Ciências",
+        "tarefa": "Tarefa pg 28 e 29 - Agora, é a sua vez!",
+        "dataentrega": "06/09/2022"
+    },
+    {
+        "data": "01/09/2022",
+        "materia": "Matemática Aplicada",
+        "tarefa": "Tarefa 31",
+        "dataentrega": "02/09/2022"
+    },
+    {
+        "data": "31/08/2022",
+        "materia": "Gramática",
+        "tarefa": "Tarefa 41 pg 93",
+        "dataentrega": "08/09/2022"
+    },
+    {
+        "data": "31/08/2022",
+        "materia": "História",
+        "tarefa": "Tarefa 19 pg 53 - O Barão de Mauá",
+        "dataentrega": "06/09/2022"
+    },
+    {
+        "data": "29/08/2022",
+        "materia": "Literatura",
+        "tarefa": "PIC conteúdo ATO I do livro 'O noviço'",
+        "dataentrega": "05/09/2022"
+    }] 
+}
