@@ -11,20 +11,27 @@
             margin-top: 5px;
             margin-bottom: 5px;
             display: flex;
+            /* center */
             position: relative;
             left: 50%;
-            transform: translateX(-50%);
             -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+        form {
+            /* center */
+            position: relative;
+            left: 50%;
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
         }
     </style>
 </head>
 <body>
     <div id="logindiv">
-        <form action="test.py" method="post">
-            <input type="text" name="username" placeholder="Insira seu nome"><br>
-            <input type="email" name="email" placeholder="Insira seu email"><br>
-            <input type="password" name="password" placeholder="Insira sua senha"><br>
-            <input type="submit" value="Logar" name="submit">
+        <form action=".." method="get" enctype="multipart/form-data">
+            <input type="email" name="email" placeholder="Insira seu email" autocomplete="email"><br>
+            <input type="password" name="password" placeholder="Insira sua senha" autocomplete="current-password"><br>
+            <input type="submit" name="submit" value="Entrar">
         </form>
     </div>
 </body>
