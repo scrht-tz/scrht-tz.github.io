@@ -6,23 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>scrht-tz.github.io</title>
     <style>
-        .cabecalhodiv{
+        *{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body{
+            background-color: #141515;
+            color: #d6d4d2;
+
+        }
+        ::-webkit-scrollbar-corner{
+            background-color: #191a1a;
+        }
+        ::-webkit-scrollbar-thumb{
+            background-color: #474a4b;
+        }
+        .cabecalho{
+            /* border */
             border: solid;
+            border-color: #e7e6e5;
             border-radius: 7.5px;
             
+            /* size */
             margin-top: 10px;
             max-width: 500px;
 
-            position: relative;
-
+            /* center */
+            position:relative;
             left: 50%;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
+
+            -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+
+            /* display */
+            display: flex;
+            justify-content: space-around;      
+        }
+        #pages {
+            /* padding */
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+            /* display */
+            display: flex;
+            justify-content: space-around;
+        }
+        a:link{
+            color: #1c1a8b
+        }
+        a:visited{
+            color:#3235ff
+        }
+        a:hover{
+            color: #8b43ff
+        }
+        @keyframes RGB{
+            0%{
+                color: rgb(255, 0, 0);
+                --rgb-color: currentcolor
+            }
+            25%{
+                color: rgb(255, 174, 0);
+                --rgb-color: currentcolor
+            }
+            50%{
+                color: rgb(43, 255, 0);
+                --rgb-color: rgb(202,0,0)
+            }
+            75%{
+                color: rgb(0, 119, 255);
+                --rgb-color: currentcolor
+            }
+            100%{
+                color: rgb(255, 0, 128);
+                --rgb-color: currentcolor
+            }
         }
     </style>
 </head>
 <body>
-    <div id="title" class="cabecalhodiv">
+    <div id="cabecalho">
+        <div id="title" class="cabecalho">
+            <h1>scrht-tz</h1>
+        </div>
+        <div id="pages" class="cabecalho">
+            <a href="tarefas-objetivo">Tarefas</a>
+            <a href=".">Home</a>
+            <a href="https://github.com/scrht-tz/scrht-tz.github.io">GitHub</a>
+        </div>
+    </div>
+    <div>
 
     </div>
 </body>
