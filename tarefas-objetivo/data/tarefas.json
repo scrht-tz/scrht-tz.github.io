@@ -28,5 +28,23 @@
         "materia": "Literatura",
         "tarefa": "PIC conteúdo ATO I do livro 'O noviço'",
         "dataentrega": "05/09/2022"
-    }] 
+    },
+    {
+        "data": "13/09/2022",
+        "materia": "Literatura",
+        "tarefa": "Pesquisar os prêmios conquistados pela personalidade da literatura africana sorteada",
+        "dataentrega": "19/09/2022"
+    },
+    {
+        "data": "13/09/2022",
+        "materia":"Ciências",
+        "tarefa":"Páginas: 39, 42, 43 e 44.",
+        "dataentrega": "16/09/2022"
+    },
+    {
+        "data":"15/09/2022",
+        "materia":"Matemática",
+        "tarefa":"Tarefa pg 67 e 68",
+        "dataentrega":"16/09/2022"
+    }]
 }
